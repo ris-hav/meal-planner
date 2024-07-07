@@ -1,38 +1,105 @@
+body {
+  margin: 0;
+}
 .App {
   text-align: center;
+  padding: 20px;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-bottom: 30px;
+  /* background-color: #d6d6d6; */
+  padding: 10px;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.meal-planner {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 40%;
+  height: 100%;
+}
+.meal-planner.wrap-enabled {
+  flex-wrap: wrap;
+}
+
+.categories {
+  /* flex: 1; */
+  margin-right: 30px;
+}
+
+.food-list {
+  flex: 1;
+  text-align: left;
+  max-height: 250px;
+  overflow-y: scroll;
+  /* border: 2px solid red; */
+  font-size: 17px;
+  padding-right: 30px;
+}
+
+.food-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.food-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 90px;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #03376e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selected {
+  background-color: #03376e;
+}
+
+.selected-food {
+  background-color: #e0f7fa;
+}
+
+.selected-foods {
+  width: 100%;
+}
+.scollable-selected {
+  max-height: 520px;
+  overflow-y: scroll;
+}
+
+.user-points {
+  position: absolute;
+  top: 52px;
+  left: 30px;
+  background-color: #0cb333b4;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.user-points h2 {
+  margin: 0;
+  font-size: 19px;
 }

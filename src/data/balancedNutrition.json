@@ -1,0 +1,6 @@
+{
+  "calories": { "min": 2200, "max": 2800 },
+  "carbs": { "min": 240, "max": 407 },
+  "protein": { "min": 62, "max": 220 },
+  "fat": { "min": 55, "max": 99 }
+}

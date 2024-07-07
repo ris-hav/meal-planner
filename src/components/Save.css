@@ -1,0 +1,78 @@
+.top-right-buttons {
+  position: absolute;
+  top: 43px;
+  right: 20px;
+}
+
+.save-button:hover,
+.reset-button:hover {
+  transform: scale(0.92);
+}
+
+.save-message,
+.not-message,
+.already-saved-message {
+  position: fixed;
+  top: 110px;
+  right: 28px;
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInOut 5s ease-in-out;
+}
+.save-message {
+  animation: popInOut 5s ease-in-out;
+}
+.not-message {
+  background-color: #f57913;
+}
+.already-saved-message {
+  background-color: yellow;
+  color: black;
+}
+
+@keyframes popInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  10% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  10% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  90% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}

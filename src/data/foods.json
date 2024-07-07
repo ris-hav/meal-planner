@@ -1,0 +1,208 @@
+{
+    "breakfast": [
+      {
+        "name": "Steamed Rice Idli",
+        "calories": 40,
+        "protein": 2,
+        "carbs": 8,
+        "fat": 1
+      },
+      {
+        "name": "Rice Poha",
+        "calories": 180,
+        "protein": 3,
+        "carbs": 30,
+        "fat": 5
+      },
+      {
+        "name": "Stuffed Paratha",
+        "calories": 250,
+        "protein": 5,
+        "carbs": 35,
+        "fat": 10
+      },
+      {
+        "name": "Crispy Masala Dosa",
+        "calories": 300,
+        "protein": 6,
+        "carbs": 45,
+        "fat": 12
+      },
+      {
+        "name": "Upma",
+        "calories": 200,
+        "protein": 5,
+        "carbs": 30,
+        "fat": 7
+      },
+  
+      {
+        "name": "Potato Puri",
+        "calories": 400,
+        "protein": 7,
+        "carbs": 55,
+        "fat": 15
+      },
+      {
+        "name": "Chole Bhature",
+        "calories": 450,
+        "protein": 10,
+        "carbs": 60,
+        "fat": 20
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Yellow Dal Tadka",
+        "calories": 150,
+        "protein": 10,
+        "carbs": 20,
+        "fat": 5
+      },
+      {
+        "name": "Paneer Butter Masala",
+        "calories": 300,
+        "protein": 15,
+        "carbs": 10,
+        "fat": 25
+      },
+      {
+        "name": "Hyderabadi Chicken Biryani",
+        "calories": 400,
+        "protein": 20,
+        "carbs": 50,
+        "fat": 15
+      },
+      {
+        "name": "Spiced Chole",
+        "calories": 350,
+        "protein": 15,
+        "carbs": 45,
+        "fat": 10
+      },
+      {
+        "name": "Rajma Chawal",
+        "calories": 380,
+        "protein": 18,
+        "carbs": 60,
+        "fat": 12
+      },
+      {
+        "name": "Smoky Baingan Bharta",
+        "calories": 200,
+        "protein": 5,
+        "carbs": 25,
+        "fat": 8
+      },
+      {
+        "name": "Cauliflower Aloo Gobi",
+        "calories": 250,
+        "protein": 7,
+        "carbs": 30,
+        "fat": 10
+      }
+    ],
+    "snacks": [
+      {
+        "name": "Crispy Potato Samosa",
+        "calories": 150,
+        "protein": 4,
+        "carbs": 20,
+        "fat": 7
+      },
+      {
+        "name": "Spicy Pani Puri",
+        "calories": 100,
+        "protein": 2,
+        "carbs": 15,
+        "fat": 3
+      },
+      {
+        "name": "Bhel Puri",
+        "calories": 200,
+        "protein": 5,
+        "carbs": 35,
+        "fat": 6
+      },
+      {
+        "name": "Spiced Masala Papad",
+        "calories": 50,
+        "protein": 2,
+        "carbs": 5,
+        "fat": 2
+      },
+      {
+        "name": "Mumbai Vada Pav",
+        "calories": 300,
+        "protein": 6,
+        "carbs": 45,
+        "fat": 10
+      },
+      {
+        "name": "Dhokla",
+        "calories": 150,
+        "protein": 7,
+        "carbs": 25,
+        "fat": 3
+      },
+      {
+        "name": "Spiced Kachori",
+        "calories": 250,
+        "protein": 5,
+        "carbs": 35,
+        "fat": 12
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Whole Wheat Roti(2)",
+        "calories": 160,
+        "protein": 6,
+        "carbs": 30,
+        "fat": 2
+      },
+      {
+        "name": "Curried Rajma",
+        "calories": 250,
+        "protein": 12,
+        "carbs": 35,
+        "fat": 6
+      },
+      {
+        "name": "Palak Paneer",
+        "calories": 220,
+        "protein": 12,
+        "carbs": 10,
+        "fat": 15
+      },
+      {
+        "name": "Vegetable Pulao Rice",
+        "calories": 300,
+        "protein": 8,
+        "carbs": 50,
+        "fat": 8
+      },
+      {
+        "name": "Stuffed Aloo Paratha",
+        "calories": 300,
+        "protein": 6,
+        "carbs": 45,
+        "fat": 10
+      },
+      {
+        "name": "Spicy Fish Curry",
+        "calories": 350,
+        "protein": 25,
+        "carbs": 10,
+        "fat": 20
+      },
+      {
+        "name": "Creamy Butter Chicken",
+        "calories": 400,
+        "protein": 30,
+        "carbs": 10,
+        "fat": 25
+      }
+    ]
+  }
+  
