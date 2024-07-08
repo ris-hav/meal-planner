@@ -7,7 +7,7 @@
 
 About the application:-
 
-- The application allows the user to selct food from each meal category to their all day meal plan
+- The application allows the user to select food from each meal category to their all day meal plan
   -It has got save and reset button to save the meal plan to local storage and reset the entire meal plan selected
 - On saving , the application compares the total nutritional intake with balanced nutritional intake which is provided in a separate file.
 - The user can adjust the values of the balanced nutrition plan according to their need

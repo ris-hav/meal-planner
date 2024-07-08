@@ -1,7 +1,5 @@
-.top-right-buttons {
-  position: absolute;
-  top: 43px;
-  right: 20px;
+.save-reset-buttons {
+  margin-top: 10px;
 }
 
 .save-button:hover,
@@ -12,16 +10,16 @@
 .save-message,
 .not-message,
 .already-saved-message {
-  position: fixed;
-  top: 110px;
-  right: 28px;
+  height: 20px;
+  visibility: hidden;
   background-color: #28a745;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  animation: fadeInOut 5s ease-in-out;
+  /* animation: fadeInOut 5s ease-in-out; */
 }
+
 .save-message {
   animation: popInOut 5s ease-in-out;
 }
@@ -31,6 +29,9 @@
 .already-saved-message {
   background-color: yellow;
   color: black;
+}
+.visibility {
+  visibility: visible;
 }
 
 @keyframes popInOut {
@@ -58,21 +59,29 @@
   }
 }
 
-@keyframes fadeInOut {
+/* @keyframes fadeInOut {
   0% {
     opacity: 0;
-    transform: scale(0.9);
+    transform: scale(0.2);
   }
   10% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80% {
     opacity: 1;
     transform: scale(1);
   }
   90% {
-    opacity: 1;
-    transform: scale(1);
+    opacity: 0.5;
+    transform: scale(0.5);
   }
   100% {
     opacity: 0;
-    transform: scale(0.9);
+    transform: scale(0.2);
   }
-}
+} */

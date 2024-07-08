@@ -73,22 +73,15 @@ const App = () => {
 
   return (
     <div className="App">
-      {hasSelectedFoods && (
-        <Save
-          totals={totals}
-          balancedData={balancedData}
-          setSelectedCategory={setSelectedCategory}
-          setSelectedFoods={setSelectedFoods}
-          selectedFoods={selectedFoods}
-          userPoints={userPoints}
-          setUserPoints={setUserPoints}
-        />
-      )}
       <h1>Meal Planner</h1>
       <div className="main-container">
-        <div
-          className={`meal-planner ${hasSelectedFoods ? "wrap-enabled" : ""}`}
-        >
+        <div className="meal-planner">
+          <div className="user-points">
+            <h2>
+              Rewards : {userPoints}
+              {`${userPoints ? "XP" : ""}`}
+            </h2>
+          </div>
           <div className="categories">
             {Object.keys(foodsData).map((category) => (
               <MealCategory
@@ -144,12 +137,17 @@ const App = () => {
           )}
         </div>
       </div>
-      <div className="user-points">
-        <h2>
-          Rewards : {userPoints}
-          {`${userPoints ? "XP" : ""}`}
-        </h2>
-      </div>
+      {hasSelectedFoods && (
+        <Save
+          totals={totals}
+          balancedData={balancedData}
+          setSelectedCategory={setSelectedCategory}
+          setSelectedFoods={setSelectedFoods}
+          selectedFoods={selectedFoods}
+          userPoints={userPoints}
+          setUserPoints={setUserPoints}
+        />
+      )}
     </div>
   );
 };

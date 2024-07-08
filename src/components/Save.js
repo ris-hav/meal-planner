@@ -56,7 +56,19 @@ function Save({
   };
   return (
     <>
-      <div className="top-right-buttons">
+      <div
+        className={`${
+          showSaveMessage.startsWith("Not")
+            ? "not-message"
+            : showSaveMessage.startsWith("Congratulations")
+            ? "save-message"
+            : "already-saved-message"
+        } ${showSaveMessage && "visibility"}`}
+      >
+        {showSaveMessage}
+      </div>
+
+      <div className="save-reset-buttons">
         <button className="save-button" onClick={handleSave}>
           Save
         </button>
@@ -64,19 +76,6 @@ function Save({
           Reset
         </button>
       </div>
-      {showSaveMessage && (
-        <div
-          className={`${
-            showSaveMessage.startsWith("Not")
-              ? "not-message"
-              : showSaveMessage.startsWith("Congratulations")
-              ? "save-message"
-              : "already-saved-message"
-          }`}
-        >
-          {showSaveMessage}
-        </div>
-      )}
     </>
   );
 }
