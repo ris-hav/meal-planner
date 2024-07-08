@@ -22,7 +22,7 @@ h1 {
 .meal-planner {
   display: flex;
   flex-wrap: wrap;
-  width: 40%;
+  width: 50%;
   height: 100%;
 }
 /* .wrap-enabled {
@@ -32,6 +32,7 @@ h1 {
 .categories {
   /* flex: 1; */
   margin-right: 30px;
+  /* display: flex; */
 }
 
 .food-list {
@@ -89,8 +90,8 @@ button:hover {
 
 .selected-foods {
   width: 100%;
-  /* max-height: 640px; */
 }
+
 .scollable-selected {
   max-height: 60vh;
   overflow-y: scroll;
@@ -134,4 +135,46 @@ button:hover {
 .user-points h2 {
   margin: 0;
   font-size: 19px;
+}
+
+@media (max-width: 1230px) {
+  .meal-planner {
+    flex-direction: column;
+    width: 40%;
+  }
+  .categories {
+    display: flex;
+  }
+  .selected-foods {
+    width: 60%;
+  }
+  .scollable-selected {
+    max-height: 90vh;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 1165px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .meal-planner {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .selected-foods {
+    width: 100%;
+  }
+  .totals {
+    text-align: center;
+  }
+  .categories {
+    display: flex;
+    flex-direction: column;
+  }
+  .user-points {
+    width: 100%;
+  }
 }
