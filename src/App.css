@@ -25,7 +25,7 @@ h1 {
   width: 40%;
   height: 100%;
 }
-.meal-planner.wrap-enabled {
+.wrap-enabled {
   flex-wrap: wrap;
 }
 
@@ -71,9 +71,9 @@ button:hover {
   background-color: #03376e;
 }
 
-.selected {
+/* .selected {
   background-color: #03376e;
-}
+} */
 
 .selected-food {
   background-color: #e0f7fa;

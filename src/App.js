@@ -132,7 +132,7 @@ const App = () => {
                     <h3>{category}</h3>
                     <ul>
                       {selectedFoods[category].map((food, index) => (
-                        <li key={index}>
+                        <li key={food.name}>
                           <FoodItem food={food} />
                         </li>
                       ))}

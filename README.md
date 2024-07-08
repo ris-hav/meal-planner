@@ -2,7 +2,7 @@
 2. open on vs code
 3. open th terminal and change the directory to the given file
 4. install node js on your laptop
-5. install the node modules required to run the react application
+5. install the node modules required to run the react application, if not included in the file, if included, you can just command npm start
 6. command npm start
 
 About the application:-
